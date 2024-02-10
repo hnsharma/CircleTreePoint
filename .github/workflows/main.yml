@@ -10,8 +10,5 @@ jobs:
   start:
     runs-on: ubuntu-latest
     steps:
-      - name: Print a greeting
-        run:  echo “Hello readers”
-
       - name: Run sample script
         uses: echo Hello, world
