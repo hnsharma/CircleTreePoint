@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  start:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Run sample script
-        uses: echo Hello, world
+        - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
